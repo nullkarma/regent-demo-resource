@@ -1,9 +1,9 @@
 ---
 
 template:
-- path:
+- sources:
   - templates
-  output: templates
+  destination: templates
   engine: go
 
 myresource:
