@@ -1,4 +1,10 @@
 ---
 
+template:
+- path:
+  - templates
+  output: templates
+  engine: go
+
 myresource:
   foo: bar
