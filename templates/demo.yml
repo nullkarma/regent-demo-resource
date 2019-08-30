@@ -1,0 +1,4 @@
+---
+
+stuff:
+  this: {{ .myresource.foo }}
