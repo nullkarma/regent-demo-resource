@@ -2,11 +2,11 @@
 
 render:
 - templates:
-  - templates
+  - templates/golang
   destination: templates/golang
   engine: golang
 - templates:
-  - templates
+  - templates/jsonnet
   destination: templates/jsonnet
   engine: jsonnet
 
