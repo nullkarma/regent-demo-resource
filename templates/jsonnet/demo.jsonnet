@@ -4,5 +4,5 @@ local x = p.parameters();
 
 {
     'demo': s,
-    'message': "Say hi to x.hello",
+    'message': "Say hi to " + x.demo_module.hello,
 }
