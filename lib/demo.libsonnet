@@ -1,6 +1,6 @@
 {
     demo: {
         hello: "world",
-        message: "Hi " + self.name,
+        message: "Hi " + self.hello,
     }
 }
