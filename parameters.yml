@@ -3,8 +3,13 @@
 render:
 - templates:
   - templates
-  destination: templates
-  engine: go
+  destination: templates/golang
+  engine: golang
+- templates:
+  - templates
+  destination: templates/jsonnet
+  engine: jsonnet
 
-myresource:
-  foo: bar
+
+demo-module:
+  hello: world

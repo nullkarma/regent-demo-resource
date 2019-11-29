@@ -1,0 +1,4 @@
+---
+
+demo:
+  hello: {{ include "hi" . }}
