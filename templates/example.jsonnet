@@ -4,5 +4,5 @@ local mylib = import 'lib/example.libsonnet';
 local x = p.parameters();
 
 {
-	message: mylib.say_hello(x.kaiser-demo.hello),
+	message: mylib.say_hello(x.kaiser_demo.hello),
 }

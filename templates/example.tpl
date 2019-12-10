@@ -1,4 +1,4 @@
 
-hello: {{ .kaiser-demo.hello }}
+hello: {{ .kaiser_demo.hello }}
 {{ include "hello" . | upper }}
-{{ .kaiser-demo | json }}
+{{ .kaiser_demo | json }}

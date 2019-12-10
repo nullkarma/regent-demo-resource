@@ -4,12 +4,12 @@
 render:
 - templates:
   - templates/example.tpl
-  destination: kaiser-demo/example/templates
+  destination: kaiser_demo/example/templates
   engine: golang
 - templates:
   - templates/example.jsonnet
-  destination: kaiser-demo/example/templates
+  destination: kaiser_demo/example/templates
   engine: jsonnet
 
-kaiser-demo:
+kaiser_demo:
   hello: World
