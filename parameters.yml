@@ -1,15 +1,15 @@
+
 ---
 
 render:
 - templates:
-  - templates/golang
-  destination: templates/golang
+  - templates/example.tpl
+  destination: kaiser-demo/example/templates
   engine: golang
 - templates:
-  - templates/jsonnet
-  destination: templates/jsonnet
+  - templates/example.jsonnet
+  destination: kaiser-demo/example/templates
   engine: jsonnet
 
-
-demo_module:
-  hello: world
+kaiser-demo:
+  hello: World
